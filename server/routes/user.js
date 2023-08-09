@@ -7,4 +7,6 @@ router.post("/signup", signup);
 router.post("/signin", signin);
 router.post("/googleSignIn", googleSignIn);
 
+// post API using router library
+
 export default router;
