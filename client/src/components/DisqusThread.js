@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const SHORTNAME = 'touropedia';
-const WEBSITE_URL = 'http://localhost:3000';
+const WEBSITE_URL = 'http://localhost:3000 || https://khoj-yatri-travel-thread-2jkc.vercel.app';
 
 function renderDisqus() {
   if (window.DISQUS === undefined) {
