@@ -15,6 +15,10 @@ app.use(cors());
 app.use("/users", userRouter); // http://localhost:5000/users/signup
 app.use("/tour", tourRouter);
 
+ app.get('/', (req, res) => {
+    res.send('Welcome to my server!');
+  });
+
 const MONGODB_URL ="mongodb+srv://gaganCode:Hellotour123@cluster0.ceze3c9.mongodb.net/?retryWrites=true&w=majority";
 const port = 5000;
 
